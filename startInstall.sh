@@ -1,6 +1,5 @@
 #!/bin/sh
 echo "检查用户权限"
-#
 if id |grep "^uid=0(root)">/dev/null ;
 	then 
 		echo "----------"
@@ -50,6 +49,6 @@ echo"准备启动CSGO服务端下载"
 cd /home
 chmod 777 *
 sleep 3s
-screen -s serverInstall /home/serverInstall.sh
+sh /home/serverInstall.sh
 
-cd /
+
