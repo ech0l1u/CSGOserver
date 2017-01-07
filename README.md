@@ -11,3 +11,11 @@
 ### 至于更新，会自动更新的，自动更新出问题了，，不知道，不管我的事
 ## gl hf
 ## cyka blyat
+### 我觉得不能这样啥都不说啊，真有小白看不明白怎么办呢
+首先执行<code>cd /home</code>这条命令，然后执行下面三条：
+<code><br/>wget https://raw.githubusercontent.com/ech0l1u/CSGOserver/master/startInstall.sh
+<br/>
+wget https://raw.githubusercontent.com/ech0l1u/CSGOserver/master/serverInstall.sh
+<br/>
+https://raw.githubusercontent.com/ech0l1u/CSGOserver/master/run.sh</code>
+<br/>再然后执行<code>sh startInstall.sh</code>这条命令就行了
