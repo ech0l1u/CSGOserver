@@ -104,11 +104,11 @@ echo "5秒钟后开始运行"
 mkdir /home/csgoserver
 mkdir /home/steamcmd
 sleep 5s
-checkSteamcmd()
+checkSteamcmd
 sleep 2s
-checkServerFile()
+checkServerFile
 sleep 2s
-checkPlugins()
+checkPlugins
 sleep 2s
-config()
-run()
+config
+run
