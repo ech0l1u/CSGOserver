@@ -15,14 +15,14 @@ fi
 
 echo "检查操作系统···"
 sleep 3s
-if lsb_release -i | grep CentOS; 
+if rpm -q centos-release | grep centos; 
 	then
 		echo "操作系统为CentOS"
 		echo "顺便帮你更新一下"
 		sleep 2s
 		yum -y update
 	else
-		echo "检测到操作系统是不是CentOS，请去换个操作系统"
+		echo "检测到操作系统不是CentOS，请去换个操作系统"
 		echo "此脚本GG，5秒后退出"
 		sleep 5s
 		exit 0
