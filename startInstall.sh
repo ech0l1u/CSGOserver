@@ -45,7 +45,7 @@ echo "帮你安装一个等会服务器跑起来后让ssh界面不那么乱的�
 yum -y install screen
 sleep 2s
 
-echo"准备启动CSGO服务端下载"
+echo "准备启动CSGO服务端下载"
 cd /home
 chmod 777 *
 sleep 3s
